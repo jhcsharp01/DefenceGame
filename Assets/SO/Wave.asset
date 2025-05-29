@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 853759f576bf83d40bee1897ab1d7644, type: 3}
   m_Name: Wave
   m_EditorClassIdentifier: 
-  count: 0
-  spawn_interval: 0
+  count: 10
+  spawn_interval: 5
+  prefab: {fileID: 8344915273427842501, guid: ad5637e8f2c5d234e93ef18719c41b58, type: 3}

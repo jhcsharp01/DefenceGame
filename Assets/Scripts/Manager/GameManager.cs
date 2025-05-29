@@ -21,7 +21,7 @@ public class GameManager : MonoBehaviour
 
     public int wave_count = 0; //웨이브 카운트
     public int gold = 100; //시작 골드
-
+    public int life = 20; //목숨
     public void Earn(int amount)
     {
         gold += amount;

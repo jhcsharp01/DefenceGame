@@ -18,5 +18,5 @@ MonoBehaviour:
   range: 1
   attack_speed: 1
   cost: 5
-  prefab: {fileID: 0}
+  prefab: {fileID: 971514897724495433, guid: dce4edaed980f004d8960e33e15c09bd, type: 3}
   weight: 1
