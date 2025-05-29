@@ -16,7 +16,8 @@ public class TowerManager : MonoBehaviour
 
     public Transform towerParent;
 
-    
+ 
+
     public void RandSpawnTower(Vector2 spawnPos)
     {
         TowerData towerData = GetTower();
@@ -32,7 +33,7 @@ public class TowerManager : MonoBehaviour
             Debug.Log("잔액이 부족합니다!");
         }
     }
-    private TowerData GetTower()
+    public TowerData GetTower()
     {
         float total_weight = 0;
         //타워 풀에 등록된 타워 데이터를 대상으로 총합 가중치를 계산합니다.

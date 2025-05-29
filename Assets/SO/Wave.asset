@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Wave
   m_EditorClassIdentifier: 
   count: 10
-  spawn_interval: 5
+  spawn_interval: 2
   prefab: {fileID: 8344915273427842501, guid: ad5637e8f2c5d234e93ef18719c41b58, type: 3}

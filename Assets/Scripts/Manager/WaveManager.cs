@@ -5,12 +5,13 @@ using UnityEngine;
 
 public class WaveManager : MonoBehaviour
 {
+    #region
     public static WaveManager instance { get; private set; }
     private void Awake()
     {
         instance = this;
     }
-
+    #endregion
 
 
     public List<WaveData> waves;
