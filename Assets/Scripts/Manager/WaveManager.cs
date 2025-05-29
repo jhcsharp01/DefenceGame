@@ -41,7 +41,7 @@ public class WaveManager : MonoBehaviour
     public IEnumerator SpawnWave(WaveData wave)
     {
         isSpawn = true;
-        UIManager.instance.UpdateWaveUI(waveIdx);
+        UIManager.instance.UpdateWaveUI(waveIdx+1);
 
         for (int i = 0; i < wave.count; i++)
         {
